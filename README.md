@@ -2,6 +2,7 @@
 
 The module automates PMKID attack for NANO/TETRA 2.7
 
+![alt text](https://raw.githubusercontent.com/xchwarze/wifi-pineapple-pmkidattack/master/module.png)
 
 **Module installation for Tetra:**
 ```
