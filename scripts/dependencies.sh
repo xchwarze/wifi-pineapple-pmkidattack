@@ -12,10 +12,6 @@ LOGFILE="/pineapple/modules/PMKIDAttack/log/module.log"
 HCXTOOLS_IPK="/pineapple/modules/PMKIDAttack/scripts/hcxtools-custom_6.0.3-5_mips_24kc.ipk"
 HCXDUMPTOOL_IPK="/pineapple/modules/PMKIDAttack/scripts/hcxdumptool-custom_6.0.7-6_mips_24kc.ipk"
 
-# V6.1
-#HCXTOOLS_IPK="/pineapple/modules/PMKIDAttack/scripts/hcxtools-custom_6.1.5-3_mips_24kc.ipk"
-#HCXDUMPTOOL_IPK="/pineapple/modules/PMKIDAttack/scripts/hcxdumptool-custom_6.1.5-3_mips_24kc.ipk"
-
 function add_log {
     echo $TIMESTAMP $1 >> $LOGFILE
 }
