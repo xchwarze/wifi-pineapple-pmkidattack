@@ -88,6 +88,8 @@ class PMKIDAttack extends Module
 
     protected function getToolPath($tool)
     {
+        /*
+        // Only for 6.1
         if ($this->isSDAvailable()) {
             $folder = ($tool === 'hcxdumptool') ?
                 self::TOOLS_SD_PATH_DUMP : self::TOOLS_SD_PATH;
@@ -95,6 +97,9 @@ class PMKIDAttack extends Module
             $folder = ($tool === 'hcxdumptool') ?
                 self::TOOLS_PATH_DUMP : self::TOOLS_PATH;
         }
+        */
+        $folder = ($this->isSDAvailable()) ?
+                self::TOOLS_SD_PATH : self::TOOLS_PATH;
 
         return "{$folder}{$tool}";
     }
